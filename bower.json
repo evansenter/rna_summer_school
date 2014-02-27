@@ -1,0 +1,22 @@
+{
+  "name": "rna_summer_school",
+  "version": "0.0.0",
+  "authors": [
+    "Evan Senter <evansenter@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-calendar": "~0.2.3",
+    "bootstrap": "~3.1.1",
+    "jquery.stellar": "~0.6.2"
+  }
+}

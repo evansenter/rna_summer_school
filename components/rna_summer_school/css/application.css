@@ -1,0 +1,36 @@
+.left_column img {
+  left: 25px;
+}
+.right_column img {
+  right: 25px;
+}
+.stellar_column img {
+  position: absolute;
+  width: 15%;
+  opacity: .15;
+  z-index: -4;
+  top: 0;
+}
+.stellar_column img:last-child {
+  top: 50%;
+  z-index: -3;
+}
+#rnabow {
+  position: absolute;
+  opacity: .2;
+  z-index: -5;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 75%;
+}
+div.jumbotron {
+  background: none;
+}
+div.jumbotron > h1 {
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+div.jumbotron > p.lead {
+  text-align: justify;
+}
