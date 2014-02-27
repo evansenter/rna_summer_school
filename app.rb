@@ -7,14 +7,14 @@ class RnaSummerSchool < Sinatra::Base
     set :public_folder, File.join(Dir.pwd, "components")
   end
   
-  %w|/ /home|.each do |string|
-    get string do
-      haml :home
-    end
+  get "/" do
+    @tab = "home"
+    haml :home
   end
   
   %i|schedule location resources about|.each do |root_symbol|
     get "/#{root_symbol}" do
+      @tab = root_symbol.to_s
       haml root_symbol
     end
   end

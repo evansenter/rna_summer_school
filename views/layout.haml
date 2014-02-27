@@ -13,6 +13,8 @@
     /[if lt IE 9]
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    %script{:src => "underscore/underscore-min.js"}
+    %script{:src => "jquery/jquery.min.js"}
   %body
     %img#rnabow{ src: "rna_summer_school/images/rnabows.png", "data-stellar-ratio" => ".5" }
     .stellar_column.left_column
@@ -28,8 +30,6 @@
           %div
             = yield
     = haml :footer
-    %script{:src => "underscore/underscore-min.js"}
-    %script{:src => "jquery/jquery.min.js"}
     %script{:src => "jquery.stellar/jquery.stellar.min.js"}
     %script{:src => "/bootstrap/dist/js/bootstrap.min.js"}
     %script{:src => "/bootstrap-calendar/js/calendar.min.js"}

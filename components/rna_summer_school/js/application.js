@@ -1,1 +1,3 @@
-$.stellar({ responsive: true });
+$(function() {
+  $.stellar({ responsive: true });
+});

@@ -1,11 +1,15 @@
 %ul.nav.nav-justified
-  %li.active
-    %a{:href => "#"} Home
   %li
-    %a{:href => "#"} Schedule
+    %a.home_tab{:href => "/"} Home
   %li
-    %a{:href => "#"} Location
+    %a.schedule_tab{:href => "/schedule"} Schedule
   %li
-    %a{:href => "#"} Resources
+    %a.location_tab{:href => "/location"} Location
   %li
-    %a{:href => "#"} About
+    %a.resources_tab{:href => "/resources"} Resources
+  %li
+    %a.about_tab{:href => "/about"} About
+:javascript
+  $(function() {
+    $(".nav li a.#{@tab}_tab").parent().addClass("active");
+  });
