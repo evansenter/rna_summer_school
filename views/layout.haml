@@ -5,6 +5,7 @@
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
     / Bootstrap
     %link{:href => "bootstrap/dist/css/bootstrap.min.css", :rel => "stylesheet"}/
+    %link{:href => "/bootstrap-calendar/css/calendar.css", :rel => "stylesheet"}/
     %link{:href => "rna_summer_school/css/application.css", :rel => "stylesheet"}/
     %link{:href => "rna_summer_school/css/navigation.css", :rel => "stylesheet"}/
     %link{:href => "rna_summer_school/css/footer.css", :rel => "stylesheet"}/
@@ -16,21 +17,15 @@
     %script{:src => "underscore/underscore-min.js"}
     %script{:src => "jquery/jquery.min.js"}
   %body
-    %img#rnabow{ src: "rna_summer_school/images/rnabows.png", "data-stellar-ratio" => ".5" }
-    .stellar_column.left_column
-      %img.stellar_image{ src: "rna_summer_school/images/trna_transparent.png", "data-stellar-ratio" => ".25" }
-      %img.stellar_image{ src: "rna_summer_school/images/spliced_leader_transparent.png", "data-stellar-ratio" => "1.5" }
-    .stellar_column.right_column
-      %img.stellar_image{ src: "rna_summer_school/images/hammerhead_transparent.png", "data-stellar-ratio" => ".25" }
-      %img.stellar_image{ src: "rna_summer_school/images/purine_transparent.png", "data-stellar-ratio" => "1.5" }
+    = haml :parallax
     .container
       .row
         .col-md-8.col-md-offset-2
           = haml :navigation
-          %div
-            = yield
-    = haml :footer
+      .row
+        = yield
     %script{:src => "jquery.stellar/jquery.stellar.min.js"}
+    %script{:src => "parallax/deploy/jquery.parallax.min.js"}
     %script{:src => "/bootstrap/dist/js/bootstrap.min.js"}
     %script{:src => "/bootstrap-calendar/js/calendar.min.js"}
     %script{:src => "/rna_summer_school/js/application.js"}

@@ -4,6 +4,7 @@ GEM
     ffi (1.9.3)
     haml (4.0.5)
       tilt
+    json (1.8.1)
     listen (1.0.3)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -29,6 +30,7 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  json
   rack
   rerun
   sinatra
