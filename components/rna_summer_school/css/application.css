@@ -72,7 +72,13 @@ div.jumbotron .btn-lg:hover {
 div.jumbotron > h1 {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
 }
+div.jumbotron > h2 {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.05);
+  font-family: 'Gafata', sans-serif;
+  font-weight: 700;
+}
 div.jumbotron > p.lead {
+  margin: 30px auto;
   text-align: justify;
 }
 .bc_map {
@@ -83,26 +89,40 @@ div.jumbotron > p.lead {
 }
 .calendar_column .calendar_entry {
   position: relative;
-  padding: 10px 10px 5px;
+  padding: 10px 10px 25px;
   margin-bottom: 20px;
   border: 1px solid #eee;
   border-radius: 5px;
-  min-height: 130px;
+  min-height: 135px;
   background: rgba(255, 255, 255, 0.5);
 }
 .calendar_column .calendar_entry:hover {
-  background: linear-gradient(to bottom, rgba(86, 61, 124, 0.075) 0, rgba(111, 84, 153, 0.15) 100%);
+  background: linear-gradient(to bottom, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.2) 100%);
   border: 1px solid #ccc;
-
+}
+.calendar_column .calendar_entry p.small {
+  font-size: 95%;
 }
 .calendar_column p:first-child {
   font-family: 'Gafata', sans-serif;
   font-size: 120%;
 }
-.calendar_column .timespan {
+.calendar_entry .timespan {
   position: absolute;
-  width: 90%;
-  bottom: 5%;
-  left: 5%;
+  width: 100%;
+  bottom: 8px;
+  left: 0;
+  background-color: #fafafa;
   color: #666;
+  padding: 2px 0;
+}
+.calendar_entry:hover .timespan {
+  background: linear-gradient(to top, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.2) 100%);
+  color: black;
+}
+.calendar_entry .timespan .pull-left {
+  margin-left: 10px;
+}
+.calendar_entry .timespan .pull-right {
+  margin-right: 10px;
 }
