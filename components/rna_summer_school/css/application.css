@@ -49,11 +49,12 @@ ul#parallax_mouse li img {
   bottom: 10px;
   right: 10px;
 }
-div.jumbotron {
+#main_jumbotron {
   position: relative;
   margin-top: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
+  border-radius: 12px;
   background: -moz-linear-gradient(-45deg,  rgba(245,246,246,0.25) 0%, rgba(219,220,226,0.25) 21%, rgba(184,186,198,0.25) 49%, rgba(221,223,227,0.25) 80%, rgba(245,246,246,0.25) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(245,246,246,0.25)), color-stop(21%,rgba(219,220,226,0.25)), color-stop(49%,rgba(184,186,198,0.25)), color-stop(80%,rgba(221,223,227,0.25)), color-stop(100%,rgba(245,246,246,0.25))); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(-45deg,  rgba(245,246,246,0.25) 0%,rgba(219,220,226,0.25) 21%,rgba(184,186,198,0.25) 49%,rgba(221,223,227,0.25) 80%,rgba(245,246,246,0.25) 100%); /* Chrome10+,Safari5.1+ */
@@ -75,7 +76,7 @@ div.jumbotron > h1 {
 div.jumbotron > h2 {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.05);
   font-family: 'Gafata', sans-serif;
-  font-weight: 700;
+  font-weight: 300;
 }
 div.jumbotron > p.lead {
   margin: 30px auto;
