@@ -1,0 +1,7 @@
+.calendar_entry
+  %p= speaker
+  %p.small= topic.empty? ? "To be announced" : topic
+  .timespan.clearfix.small
+    .pull-left= start_time.strftime("%H:%M")
+    to
+    .pull-right= end_time.strftime("%H:%M")

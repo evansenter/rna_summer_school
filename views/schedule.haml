@@ -1,5 +1,31 @@
-.col-md-8.col-md-offset-2
-  %h1 RNA Summer School
-  %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
-
-  #calendar
+.text-center
+  .col-md-2.col-md-offset-1.calendar_column
+    %h3
+      Sunday
+      %small 7/6
+    - @calendar[DateTime::ABBR_DAYNAMES.find_index("Sun")].each do |event|
+      = haml :"_calendar_entry", locals: event
+  .col-md-2.calendar_column
+    %h3
+      Monday
+      %small 7/7
+    - @calendar[DateTime::ABBR_DAYNAMES.find_index("Mon")].each do |event|
+      = haml :"_calendar_entry", locals: event
+  .col-md-2.calendar_column
+    %h3
+      Tuesday
+      %small 7/8
+    - @calendar[DateTime::ABBR_DAYNAMES.find_index("Tue")].each do |event|
+      = haml :"_calendar_entry", locals: event
+  .col-md-2.calendar_column
+    %h3
+      Wednesday
+      %small 7/9
+    - @calendar[DateTime::ABBR_DAYNAMES.find_index("Wed")].each do |event|
+      = haml :"_calendar_entry", locals: event
+  .col-md-2.calendar_column
+    %h3
+      Thursday
+      %small 7/10
+    - @calendar[DateTime::ABBR_DAYNAMES.find_index("Thu")].each do |event|
+      = haml :"_calendar_entry", locals: event

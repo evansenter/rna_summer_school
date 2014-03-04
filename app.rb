@@ -13,23 +13,21 @@ class RnaSummerSchool < Sinatra::Base
     haml :home
   end
 
-  %i|schedule location resources about|.each do |root_symbol|
+  get "/schedule" do
+    @tab      = "schedule"
+    @calendar = JSON.parse(File.read(File.join(Dir.pwd, "views", "calendar.json"))).map do |event|
+      %w|start_time end_time|.inject(event) do |hash, key|
+        hash.merge(key => (Time.parse(hash[key]).utc + Time.zone_offset("EST")))
+      end
+    end.group_by { |hash| hash["start_time"].wday }
+    haml :schedule
+  end
+
+  %i|location resources about|.each do |root_symbol|
     get "/#{root_symbol}" do
       @tab = root_symbol.to_s
       haml root_symbol
     end
-  end
-
-  get "/api/calendar.json" do
-    content_type :json
-
-    calendar = JSON.parse(File.read(File.join(Dir.pwd, "views", "calendar.json"))).map do |event|
-      %w|start end|.inject(event) do |hash, key|
-        hash.merge(key => Time.parse(hash.delete("%s_datetime" % key)).to_i * 1000)
-      end
-    end
-
-    { success: 1, result: calendar }.to_json
   end
 
   run! if app_file == $0

@@ -1,86 +1,74 @@
 [
 	{
-		"title": "Michelle Meyer--Fundamentals of RNA biology and biochemistry",
-		"url": "http://www.example.com/",
-		"class": "event-success",
-		"start_datetime": "2014-07-06 09:30:00 -0500",
-		"end_datetime": "2014-07-06 13:00:00 -0500"
+		"speaker": "Michelle Meyer",
+		"topic": "Fundamentals of RNA biology and biochemistry",
+		"start_time": "2014-07-06 09:30:00 -0500",
+		"end_time": "2014-07-06 13:00:00 -0500"
 	},
   {
-    "title": "Encarna Martinez-Salas--Fundamentals of RNA biology and biochemistry",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-06 15:00:00 -0500",
-    "end_datetime": "2014-07-06 17:00:00 -0500"
+    "speaker": "Ivan Dotu",
+		"topic": "Bioinformatics Algorithms",
+    "start_time": "2014-07-06 09:30:00 -0500",
+    "end_time": "2014-07-06 13:00:00 -0500"
+  },
+	{
+		"speaker": "Encarna Martinez-Salas",
+		"topic": "Fundamentals of RNA biology and biochemistry",
+		"start_time": "2014-07-06 15:00:00 -0500",
+		"end_time": "2014-07-06 17:00:00 -0500"
+	},
+  {
+    "speaker": "Sergio Alvarez",
+		"topic": "Bioinformatics Algorithms",
+    "start_time": "2014-07-06 15:00:00 -0500",
+    "end_time": "2014-07-06 17:00:00 -0500"
   },
   {
-    "title": "Ivan Dotu--Bioinformatics Algorithms",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-06 09:30:00 -0500",
-    "end_datetime": "2014-07-06 13:00:00 -0500"
+    "speaker": "Peter Clote",
+		"topic": "RNA thermodynamics-based algorithms",
+    "start_time": "2014-07-07 09:30:00 -0500",
+    "end_time": "2014-07-07 13:00:00 -0500"
   },
   {
-    "title": "Sergio Alvarez--Bioinformatics Algorithms",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-06 15:00:00 -0500",
-    "end_datetime": "2014-07-06 17:00:00 -0500"
+    "speaker": "Peter Stadler",
+		"topic": "",
+    "start_time": "2014-07-07 15:00:00 -0500",
+    "end_time": "2014-07-07 17:00:00 -0500"
   },
   {
-    "title": "Peter Clote--RNA thermodynamics-based algorithms",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-07 09:30:00 -0500",
-    "end_datetime": "2014-07-07 13:00:00 -0500"
+    "speaker": "Pierre Baldi (NYC)",
+		"topic": "Cutting edge techniques in deep machine learning",
+    "start_time": "2014-07-08 09:30:00 -0500",
+    "end_time": "2014-07-08 13:00:00 -0500"
   },
   {
-    "title": "Peter Stadler--TBA",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-07 15:00:00 -0500",
-    "end_datetime": "2014-07-07 17:00:00 -0500"
+    "speaker": "Elena Rivas",
+		"topic": "",
+    "start_time": "2014-07-08 15:00:00 -0500",
+    "end_time": "2014-07-08 17:00:00 -0500"
   },
   {
-    "title": "Pierre Baldi--NYC: cutting edge techniques in deep machine learning",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-08 09:30:00 -0500",
-    "end_datetime": "2014-07-08 13:00:00 -0500"
+    "speaker": "Jacquin Niles",
+		"topic": "",
+    "start_time": "2014-07-09 09:30:00 -0500",
+    "end_time": "2014-07-09 13:00:00 -0500"
   },
   {
-    "title": "Elena Rivas--TBA: stochastic context-free grammars applications in RNA structure",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-08 15:00:00 -0500",
-    "end_datetime": "2014-07-08 17:00:00 -0500"
+    "speaker": "Jim Collins",
+		"topic": "",
+    "start_time": "2014-07-09 15:00:00 -0500",
+    "end_time": "2014-07-09 17:00:00 -0500"
   },
   {
-    "title": "Jacquin Niles--TBA: synthetic biology",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-09 09:30:00 -0500",
-    "end_datetime": "2014-07-09 13:00:00 -0500"
+    "speaker": "Kourosh Zarringhalam",
+		"topic": "",
+    "start_time": "2014-07-10 09:30:00 -0500",
+    "end_time": "2014-07-10 13:00:00 -0500"
   },
   {
-    "title": "Jim Collins--TBA: synthetic biology",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-09 15:00:00 -0500",
-    "end_datetime": "2014-07-09 17:00:00 -0500"
-  },
-  {
-    "title": "Kourosh Zarringhalam--TBA: statistical learning theory",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-10 09:30:00 -0500",
-    "end_datetime": "2014-07-10 13:00:00 -0500"
-  },
-  {
-    "title": "Knut Reinert--A case study in bioinformatics software engineering: SeqAn",
-    "url": "http://www.example.com/",
-    "class": "event-success",
-    "start_datetime": "2014-07-10 15:00:00 -0500",
-    "end_datetime": "2014-07-10 17:00:00 -0500"
+    "speaker": "Knut Reinert",
+		"topic": "A case study in bioinformatics software engineering: SeqAn",
+    "start_time": "2014-07-10 15:00:00 -0500",
+    "end_time": "2014-07-10 17:00:00 -0500"
   }
 ]

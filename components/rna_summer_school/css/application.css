@@ -27,14 +27,23 @@ ul#parallax_mouse li img {
 .top_left {
   top: 10px;
   left: 10px;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
 }
 .top_right {
   top: 10px;
   right: 10px;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
 }
 .bottom_left {
   bottom: 10px;
   left: 10px;
+  transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
 }
 .bottom_right {
   bottom: 10px;
@@ -61,18 +70,39 @@ div.jumbotron .btn-lg:hover {
   background-image: linear-gradient(to top, #563d7c 0, #6f5499 100%);
 }
 div.jumbotron > h1 {
-  font-weight: 100;
-  letter-spacing: 5px;
-}
-div.jumbotron h1.hover {
-  position: absolute;
-  top: 27px;
-  left: 59px;
-  opacity: .15;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
 }
 div.jumbotron > p.lead {
   text-align: justify;
 }
 .bc_map {
   margin-top: 20px;
+}
+.calendar_column > h3:first-child {
+  margin-bottom: 30px;
+}
+.calendar_column .calendar_entry {
+  position: relative;
+  padding: 10px 10px 5px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  min-height: 130px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.calendar_column .calendar_entry:hover {
+  background: linear-gradient(to bottom, rgba(86, 61, 124, 0.075) 0, rgba(111, 84, 153, 0.15) 100%);
+  border: 1px solid #ccc;
+
+}
+.calendar_column p:first-child {
+  font-family: 'Gafata', sans-serif;
+  font-size: 120%;
+}
+.calendar_column .timespan {
+  position: absolute;
+  width: 90%;
+  bottom: 5%;
+  left: 5%;
+  color: #666;
 }
