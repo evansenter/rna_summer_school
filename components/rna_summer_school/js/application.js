@@ -1,5 +1,5 @@
 $(function() {
-  if (!location.host.match(/localhost/) {
+  if (!location.host.match(/localhost/)) {
     $.stellar({
       responsive: true
     });
