@@ -1,7 +1,9 @@
 $(function() {
-  // $.stellar({
-  //   responsive: true
-  // });
-  //
-  // $("#parallax_mouse").parallax({});
+  if (!location.host.match(/localhost/) {
+    $.stellar({
+      responsive: true
+    });
+
+    $("#parallax_mouse").parallax({});
+  }
 });
