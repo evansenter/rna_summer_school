@@ -23,7 +23,7 @@ class RnaSummerSchool < Sinatra::Base
     haml :schedule
   end
 
-  %i|location resources about|.each do |root_symbol|
+  %i|location about|.each do |root_symbol|
     get "/#{root_symbol}" do
       @tab = root_symbol.to_s
       haml root_symbol

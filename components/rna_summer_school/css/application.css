@@ -1,3 +1,6 @@
+body {
+  padding-bottom: 30px;
+}
 #rnabow {
   position: absolute;
   opacity: .1;
@@ -38,16 +41,8 @@ ul#parallax_mouse li img {
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
 }
-.bottom_left {
-  bottom: 10px;
-  left: 10px;
-  transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-}
-.bottom_right {
-  bottom: 10px;
-  right: 10px;
+h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif !important;
 }
 #main_jumbotron {
   position: relative;
@@ -64,18 +59,18 @@ ul#parallax_mouse li img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40f5f6f6', endColorstr='#40f5f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 div.jumbotron .btn-lg {
-  background-image: linear-gradient(to bottom, #563d7c 0, #6f5499 100%);
+  background-image: linear-gradient(-150deg, #563d7c 0, #6f5499 100%);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
   color: white;
 }
 div.jumbotron .btn-lg:hover {
-  background-image: linear-gradient(to top, #563d7c 0, #6f5499 100%);
+  background-image: linear-gradient(30deg, rgba(86, 61, 124, 0.9) 0, rgba(111, 84, 153, 0.9) 100%);
 }
 div.jumbotron > h1 {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
 }
 div.jumbotron > h2 {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.05);
-  font-family: 'Gafata', sans-serif;
   font-weight: 300;
 }
 div.jumbotron > p.lead {
@@ -94,7 +89,7 @@ div.jumbotron > p.lead {
   margin-bottom: 20px;
   border: 1px solid #eee;
   border-radius: 5px;
-  min-height: 135px;
+  min-height: 150px;
   background: rgba(255, 255, 255, 0.5);
 }
 .calendar_column .calendar_entry:hover {
@@ -105,8 +100,8 @@ div.jumbotron > p.lead {
   font-size: 95%;
 }
 .calendar_column p:first-child {
-  font-family: 'Gafata', sans-serif;
-  font-size: 120%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 115%;
 }
 .calendar_entry .timespan {
   position: absolute;
@@ -116,6 +111,7 @@ div.jumbotron > p.lead {
   background-color: #fafafa;
   color: #666;
   padding: 2px 0;
+  font-family: 'Roboto', sans-serif;
 }
 .calendar_entry:hover .timespan {
   background: linear-gradient(to top, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.2) 100%);
@@ -126,4 +122,7 @@ div.jumbotron > p.lead {
 }
 .calendar_entry .timespan .pull-right {
   margin-right: 10px;
+}
+.location address, .event_host + p {
+  margin-top: 40px;
 }

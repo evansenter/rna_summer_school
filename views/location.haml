@@ -1,3 +1,21 @@
-.col-md-8.col-md-offset-2
-  .flexible_container.bc_map
-    %iframe{:frameborder => "0", :height => "600", :src => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11796.749439904086!2d-71.17627620000005!3d42.33852864999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3785da725d4c9%3A0xb68ae90a5b8eb6e!2sBoston+College!5e0!3m2!1sen!2sus!4v1393555901938", :style => "border:0", :width => "100%"}
+.location
+  .col-md-8.col-md-offset-2
+    %h2 Event location and directions
+
+    %p
+      %address.text-center
+        %strong Biology Department, Boston College
+        %br
+        355 Higgins Hall
+        %br
+        140 Commonwealth Ave
+        %br
+        Chestnut Hill, MA 02467
+        %abbr{ title: "Phone Number" } P:
+        (617) 552-3540
+
+    %h4.text-center
+      %a{ href: "http://www.bc.edu/content/bc/schools/cas/biology/directions.html" } Directions courtesy of the Biology Department at Boston College
+
+    .flexible_container.bc_map
+      %iframe{:frameborder => "0", :height => "600", :src => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11796.749439904086!2d-71.17627620000005!3d42.33852864999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3785da725d4c9%3A0xb68ae90a5b8eb6e!2sBoston+College!5e0!3m2!1sen!2sus!4v1393555901938", :style => "border:0", :width => "100%"}
