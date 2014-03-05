@@ -6,6 +6,7 @@ class RnaSummerSchool < Sinatra::Base
     set :app_file, __FILE__
     set :port, ENV["PORT"]
     set :public_folder, File.join(Dir.pwd, "components")
+    set :protection, except: [:frame_options]
   end
 
   get "/" do
