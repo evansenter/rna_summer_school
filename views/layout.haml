@@ -19,9 +19,8 @@
     .container
       .row
         .col-md-8.col-md-offset-2
-          = haml :navigation
-      .row
-        = yield
+          = haml :navigation  
+      = yield
     %script{:src => "jquery.stellar/jquery.stellar.min.js"}
     %script{:src => "/bootstrap/dist/js/bootstrap.min.js"}
     %script{:src => "/rna_summer_school/js/application.js"}

@@ -3,72 +3,84 @@
 		"speaker": "Michelle Meyer",
 		"topic": "Fundamentals of RNA biology and biochemistry",
 		"start_time": "2014-07-06 09:30:00 -0500",
-		"end_time": "2014-07-06 13:00:00 -0500"
+		"end_time": "2014-07-06 13:00:00 -0500",
+		"column": 0
+	},
+	{
+		"speaker": "Encarna Martinez-Salas",
+		"topic": "Fundamentals of RNA biology and biochemistry",
+		"start_time": "2014-07-06 15:00:00 -0500",
+		"end_time": "2014-07-06 17:00:00 -0500",
+		"column": 0
 	},
   {
     "speaker": "Ivan Dotu",
 		"topic": "Bioinformatics Algorithms",
     "start_time": "2014-07-06 09:30:00 -0500",
-    "end_time": "2014-07-06 13:00:00 -0500"
+    "end_time": "2014-07-06 13:00:00 -0500",
+		"column": 1
   },
-	{
-		"speaker": "Encarna Martinez-Salas",
-		"topic": "Fundamentals of RNA biology and biochemistry",
-		"start_time": "2014-07-06 15:00:00 -0500",
-		"end_time": "2014-07-06 17:00:00 -0500"
-	},
   {
     "speaker": "Sergio Alvarez",
 		"topic": "Bioinformatics Algorithms",
     "start_time": "2014-07-06 15:00:00 -0500",
-    "end_time": "2014-07-06 17:00:00 -0500"
+    "end_time": "2014-07-06 17:00:00 -0500",
+		"column": 1
   },
   {
     "speaker": "Peter Clote",
 		"topic": "RNA thermodynamics-based algorithms",
     "start_time": "2014-07-07 09:30:00 -0500",
-    "end_time": "2014-07-07 13:00:00 -0500"
+    "end_time": "2014-07-07 13:00:00 -0500",
+		"column": 2
   },
   {
     "speaker": "Peter Stadler",
 		"topic": "",
     "start_time": "2014-07-07 15:00:00 -0500",
-    "end_time": "2014-07-07 17:00:00 -0500"
+    "end_time": "2014-07-07 17:00:00 -0500",
+		"column": 2
   },
   {
-    "speaker": "Pierre Baldi (NYC)",
-		"topic": "Cutting edge techniques in deep machine learning",
+    "speaker": "To be announced",
+		"topic": "",
     "start_time": "2014-07-08 09:30:00 -0500",
-    "end_time": "2014-07-08 13:00:00 -0500"
+    "end_time": "2014-07-08 13:00:00 -0500",
+		"column": 3
   },
   {
     "speaker": "Elena Rivas",
 		"topic": "",
     "start_time": "2014-07-08 15:00:00 -0500",
-    "end_time": "2014-07-08 17:00:00 -0500"
+    "end_time": "2014-07-08 17:00:00 -0500",
+		"column": 3
   },
   {
     "speaker": "Jacquin Niles",
 		"topic": "",
     "start_time": "2014-07-09 09:30:00 -0500",
-    "end_time": "2014-07-09 13:00:00 -0500"
+    "end_time": "2014-07-09 13:00:00 -0500",
+		"column": 4
   },
   {
     "speaker": "Jim Collins",
 		"topic": "",
     "start_time": "2014-07-09 15:00:00 -0500",
-    "end_time": "2014-07-09 17:00:00 -0500"
+    "end_time": "2014-07-09 17:00:00 -0500",
+		"column": 4
   },
   {
     "speaker": "Kourosh Zarringhalam",
 		"topic": "",
     "start_time": "2014-07-10 09:30:00 -0500",
-    "end_time": "2014-07-10 13:00:00 -0500"
+    "end_time": "2014-07-10 13:00:00 -0500",
+		"column": 5
   },
   {
     "speaker": "Knut Reinert",
 		"topic": "A case study in bioinformatics software engineering: SeqAn",
     "start_time": "2014-07-10 15:00:00 -0500",
-    "end_time": "2014-07-10 17:00:00 -0500"
+    "end_time": "2014-07-10 17:00:00 -0500",
+		"column": 5
   }
 ]

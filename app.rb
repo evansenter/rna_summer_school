@@ -19,7 +19,7 @@ class RnaSummerSchool < Sinatra::Base
       %w|start_time end_time|.inject(event) do |hash, key|
         hash.merge(key => (Time.parse(hash[key]).utc + Time.zone_offset("EST")))
       end
-    end.group_by { |hash| hash["start_time"].wday }
+    end.group_by { |hash| hash["column"] }
     haml :schedule
   end
 
