@@ -71,12 +71,12 @@ h2, h3, h4, h5, h6 {
   background: linear-gradient(135deg,  rgba(245,246,246,0.25) 0%,rgba(219,220,226,0.25) 21%,rgba(184,186,198,0.25) 49%,rgba(221,223,227,0.25) 80%,rgba(245,246,246,0.25) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40f5f6f6', endColorstr='#40f5f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-div.jumbotron .btn-lg {
+div.jumbotron .about_event {
   background-image: linear-gradient(-150deg, #563d7c 0, #6f5499 100%);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
   color: white;
 }
-div.jumbotron .btn-lg:hover {
+div.jumbotron .about_event:hover {
   background-image: linear-gradient(30deg, rgba(86, 61, 124, 0.9) 0, rgba(111, 84, 153, 0.9) 100%);
 }
 div.jumbotron > h1 {
