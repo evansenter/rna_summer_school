@@ -6,10 +6,8 @@ $(function() {
   }
 
   $(".calendar_entry").each(function() {
-    // if ($(this).data("modalId") != "to_be_announced") {
-      $(this).click(function() {
-        $("#" + $(this).data("modalId")).modal();
-      });
-    // }
+    $(this).click(function() {
+      $("#" + $(this).data("modalId")).modal();
+    });
   });
 });
