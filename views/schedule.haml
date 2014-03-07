@@ -8,24 +8,33 @@
     %h3
       Sunday
       %small 7/6, parallel sessions
+    .col-md-6.calendar_column.left_no_pad
+      - @calendar[0].each do |event|
+        = haml :"_calendar_entry", locals: event
+    .col-md-6.calendar_column.right_no_pad
+      - @calendar[1].each do |event|
+        = haml :"_calendar_entry", locals: event
   .col-md-2.calendar_column
     %h3
       Monday
       %small 7/7
+    - @calendar[2].each do |event|
+      = haml :"_calendar_entry", locals: event
   .col-md-2.calendar_column
     %h3
       Tuesday
       %small 7/8
+    - @calendar[3].each do |event|
+      = haml :"_calendar_entry", locals: event
   .col-md-2.calendar_column
     %h3
       Wednesday
       %small 7/9
+    - @calendar[4].each do |event|
+      = haml :"_calendar_entry", locals: event
   .col-md-2.calendar_column
     %h3
       Thursday
       %small 7/10
-.row.text-center
-  - 6.times do |column_index|
-    .col-md-2.calendar_column
-      - @calendar[column_index].each do |event|
-        = haml :"_calendar_entry", locals: event
+    - @calendar[5].each do |event|
+      = haml :"_calendar_entry", locals: event

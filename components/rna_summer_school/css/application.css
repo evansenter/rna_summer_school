@@ -94,6 +94,12 @@ div.jumbotron > p.lead {
 .bc_map {
   margin-top: 20px;
 }
+.left_no_pad {
+  padding-left: 0;
+}
+.right_no_pad {
+  padding-right: 0;
+}
 .calendar_column > h3:first-child {
   margin-bottom: 30px;
 }
