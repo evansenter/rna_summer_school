@@ -1,0 +1,123 @@
+[
+	{
+		"speaker": "Michelle Meyer",
+		"formal_name": "Prof. Dr. Michelle Meyer",
+		"url": "http://bioinformatics.bc.edu/meyerlab/",
+		"institution": "Boston College",
+		"topic": "Fundamentals of RNA biology and biochemistry",
+		"start_time": "2014-07-06 09:30:00 -0500",
+		"end_time": "2014-07-06 13:00:00 -0500",
+		"column": 0
+	},
+	{
+		"speaker": "Encarna Martinez-Salas",
+		"formal_name": "Dr. Encarnación Martínez-Salas",
+		"url": "http://rnareg.maciasnmr.net/index.php?option=com_content&view=article&id=50&Itemid=57&lang=en",
+		"institution": "Centro de Biología Molecular Severo Ochoa",
+		"topic": "Fundamentals of RNA biology and biochemistry",
+		"start_time": "2014-07-06 15:00:00 -0500",
+		"end_time": "2014-07-06 17:00:00 -0500",
+		"column": 0
+	},
+  {
+    "speaker": "Ivan Dotu",
+		"formal_name": "Dr. Ivan Dotu",
+		"url": false,
+		"institution": "Universitat de Barcelona",
+		"topic": "Bioinformatics Algorithms",
+    "start_time": "2014-07-06 09:30:00 -0500",
+    "end_time": "2014-07-06 13:00:00 -0500",
+		"column": 1
+  },
+  {
+    "speaker": "Sergio Alvarez",
+		"formal_name": "Prof. Dr. Sergio Alvarez",
+		"url": "http://www.cs.bc.edu/~alvarez/",
+		"institution": "Boston College",
+		"topic": "Bioinformatics Algorithms",
+    "start_time": "2014-07-06 15:00:00 -0500",
+    "end_time": "2014-07-06 17:00:00 -0500",
+		"column": 1
+  },
+  {
+    "speaker": "Peter Clote",
+		"formal_name": "Prof. Dr. Peter Clote, Doctorat d'Etat",
+		"url": "http://clavius.bc.edu/~clote/",
+		"institution": "Boston College",
+		"topic": "RNA thermodynamics-based algorithms",
+    "start_time": "2014-07-07 09:30:00 -0500",
+    "end_time": "2014-07-07 13:00:00 -0500",
+		"column": 2
+  },
+  {
+    "speaker": "Peter Stadler",
+		"formal_name": "Prof. Dr. Peter F. Stadler\nProfessor für Bioinformatik at the University of Leipzig\nSenior Scientific Advisor) of the RNomics Group, Fraunhofer Institute for Cell Therapy and Immunology\nExternal Scientific Member of the Max Planck Society",
+		"url": "http://www.bioinf.uni-leipzig.de/~studla/",
+		"institution": "Universität Leipzig",
+		"topic": false,
+    "start_time": "2014-07-07 15:00:00 -0500",
+    "end_time": "2014-07-07 17:00:00 -0500",
+		"column": 2
+  },
+  {
+    "speaker": "To be announced",
+		"formal_name": false,
+		"url": false,
+		"institution": false,
+		"topic": false,
+    "start_time": "2014-07-08 09:30:00 -0500",
+    "end_time": "2014-07-08 13:00:00 -0500",
+		"column": 3
+  },
+  {
+    "speaker": "Elena Rivas",
+		"formal_name": "Dr. Elena Rivas",
+		"url": "http://www.hhmi.org/scientists/elena-rivas",
+		"institution": "Howard Hughes Medical Institute",
+		"topic": "RNA secondary structure prediction beyond thermodynamics. A four-ingredient unifying perspective.",
+		"abstract": "elena_rivas",
+    "start_time": "2014-07-08 15:00:00 -0500",
+    "end_time": "2014-07-08 17:00:00 -0500",
+		"column": 3
+  },
+  {
+    "speaker": "Jacquin Niles",
+		"formal_name": "Prof. Jacquin C. Niles, M.D., PhD",
+		"url": "http://web.mit.edu/be/people/niles.shtml",
+		"institution": "Massachusetts Institute of Technology",
+		"topic": false,
+    "start_time": "2014-07-09 09:30:00 -0500",
+    "end_time": "2014-07-09 13:00:00 -0500",
+		"column": 4
+  },
+  {
+    "speaker": "Jim Collins",
+		"formal_name": "Prof. Dr. James J. Collins, William F. Warren Distinguished Professor",
+		"url": "http://www.bu.edu/bme/people/primary/collins/",
+		"institution": "Boston University",
+		"topic": false,
+    "start_time": "2014-07-09 15:00:00 -0500",
+    "end_time": "2014-07-09 17:00:00 -0500",
+		"column": 4
+  },
+  {
+    "speaker": "Kourosh Zarringhalam",
+		"formal_name": "Prof. Dr. Kourosh Zarringhalam",
+		"url": "http://www.math.umb.edu/~kouroshz/",
+		"institution": "University of Massachusetts Boston",
+		"topic": false,
+    "start_time": "2014-07-10 09:30:00 -0500",
+    "end_time": "2014-07-10 13:00:00 -0500",
+		"column": 5
+  },
+  {
+    "speaker": "Knut Reinert",
+		"formal_name": "Prof. Dr. Knut Reinert",
+		"url": "http://www.mi.fu-berlin.de/en/inf/groups/abi/members/Professors/reinert.html",
+		"institution": "Freie Universität Berlin",
+		"topic": "A case study in bioinformatics software engineering: SeqAn",
+    "start_time": "2014-07-10 15:00:00 -0500",
+    "end_time": "2014-07-10 17:00:00 -0500",
+		"column": 5
+  }
+]

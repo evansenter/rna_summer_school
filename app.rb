@@ -16,9 +16,13 @@ class RnaSummerSchool < Sinatra::Base
 
   get "/schedule" do
     @tab      = "schedule"
-    @calendar = JSON.parse(File.read(File.join(Dir.pwd, "views", "calendar.json"))).map do |event|
+    @calendar = JSON.parse(File.read(File.join(Dir.pwd, "views", "schedule", "calendar.json"))).map do |event|
       %w|start_time end_time|.inject(event) do |hash, key|
         hash.merge(key => (Time.parse(hash[key]).utc + Time.zone_offset("EST")))
+      end.tap do |hash|
+        if hash.has_key?("abstract")
+          hash["abstract"] = File.read(File.join(Dir.pwd, "views", "schedule", "abstract_%s.txt" % hash["abstract"]))
+        end
       end
     end.group_by { |hash| hash["column"] }
     haml :schedule

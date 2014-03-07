@@ -85,6 +85,7 @@ div.jumbotron > p.lead {
   margin-bottom: 30px;
 }
 .calendar_column .calendar_entry {
+  cursor: pointer;
   position: relative;
   padding: 10px 10px 25px;
   margin-bottom: 20px;
@@ -94,7 +95,7 @@ div.jumbotron > p.lead {
   background: rgba(255, 255, 255, 0.5);
 }
 .calendar_column .calendar_entry:hover {
-  background: linear-gradient(to bottom, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.2) 100%);
+  background: linear-gradient(-30deg, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.1) 100%);
   border: 1px solid #ccc;
 }
 .calendar_column .calendar_entry p.small {
@@ -115,7 +116,7 @@ div.jumbotron > p.lead {
   font-family: 'Roboto', sans-serif;
 }
 .calendar_entry:hover .timespan {
-  background: linear-gradient(to top, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.2) 100%);
+  background: linear-gradient(30deg, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.1) 100%);
   color: black;
 }
 .calendar_entry .timespan .pull-left {
@@ -123,6 +124,18 @@ div.jumbotron > p.lead {
 }
 .calendar_entry .timespan .pull-right {
   margin-right: 10px;
+}
+h4.modal-title + h6.modal-title {
+  margin-top: 10px;
+}
+h6.modal-title {
+  margin-bottom: 5px;
+}
+h6.modal-title:last-child {
+  margin-bottom: 0;
+}
+.modal-body h4 {
+  margin-bottom: 20px;
 }
 .location address, .event_host + p {
   margin-top: 40px;
