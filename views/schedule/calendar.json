@@ -21,9 +21,9 @@
 	},
   {
     "speaker": "Ivan Dotu",
-		"formal_name": "Dr. Ivan Dotu",
-		"url": false,
-		"institution": "Universitat de Barcelona",
+		"formal_name": "Dr. Ivan Dotu, Visiting Scholar",
+		"url": "http://www.bc.edu/schools/cas/biology/facadmin/dotu.html",
+		"institution": "Universidad Politecnica de Cataluña",
 		"topic": "Bioinformatics Algorithms",
     "start_time": "2014-07-06 09:30:00 -0500",
     "end_time": "2014-07-06 13:00:00 -0500",
