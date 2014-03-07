@@ -37,7 +37,7 @@ ul#parallax_mouse li {
 }
 ul#parallax_mouse li img {
   position: absolute;
-  opacity: .2;
+  opacity: .4;
   width: 10%;
 }
 .top_left {
