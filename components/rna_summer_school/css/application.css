@@ -87,11 +87,10 @@ div.jumbotron > p.lead {
 .calendar_column .calendar_entry {
   cursor: pointer;
   position: relative;
-  padding: 10px 10px 25px;
+  padding: 10px 10px 35px;
   margin-bottom: 20px;
   border: 1px solid #eee;
   border-radius: 5px;
-  min-height: 160px;
   background: rgba(255, 255, 255, 0.5);
 }
 .calendar_column .calendar_entry:hover {
@@ -118,6 +117,10 @@ div.jumbotron > p.lead {
 .calendar_entry:hover .timespan {
   background: linear-gradient(30deg, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.1) 100%);
   color: black;
+}
+.calendar_entry .timespan div[class*=text] {
+  font-size: 110%;
+  font-weight: bold;
 }
 .calendar_entry .timespan .pull-left {
   margin-left: 10px;
