@@ -1,7 +1,7 @@
 [
 	{
 		"speaker": "Michelle Meyer",
-		"formal_name": "Prof. Dr. Michelle Meyer",
+		"formal_name": "Prof. Michelle Meyer, PhD",
 		"url": "http://bioinformatics.bc.edu/meyerlab/",
 		"institution": "Boston College",
 		"topic": "Fundamentals of RNA biology and biochemistry",
@@ -11,7 +11,7 @@
 	},
 	{
 		"speaker": "Encarna Martinez-Salas",
-		"formal_name": "Dr. Encarnación Martínez-Salas",
+		"formal_name": "Encarnación Martínez-Salas, PhD",
 		"url": "http://rnareg.maciasnmr.net/index.php?option=com_content&view=article&id=50&Itemid=57&lang=en",
 		"institution": "Centro de Biología Molecular Severo Ochoa",
 		"topic": "Fundamentals of RNA biology and biochemistry",
@@ -21,7 +21,7 @@
 	},
   {
     "speaker": "Ivan Dotu",
-		"formal_name": "Dr. Ivan Dotu, Visiting Scholar",
+		"formal_name": "Ivan Dotu, PhD, Visiting Scholar",
 		"url": "http://www.bc.edu/schools/cas/biology/facadmin/dotu.html",
 		"institution": "Universidad Politecnica de Cataluña",
 		"topic": "Bioinformatics Algorithms",
@@ -31,7 +31,7 @@
   },
   {
     "speaker": "Sergio Alvarez",
-		"formal_name": "Prof. Dr. Sergio Alvarez",
+		"formal_name": "Prof. Sergio Alvarez, PhD",
 		"url": "http://www.cs.bc.edu/~alvarez/",
 		"institution": "Boston College",
 		"topic": "Bioinformatics Algorithms",
@@ -41,7 +41,7 @@
   },
   {
     "speaker": "Peter Clote",
-		"formal_name": "Prof. Dr. Peter Clote, Doctorat d'Etat",
+		"formal_name": "Prof. Peter Clote, PhD, Doctorat d'Etat",
 		"url": "http://clavius.bc.edu/~clote/",
 		"institution": "Boston College",
 		"topic": "RNA thermodynamics-based algorithms",
@@ -51,7 +51,7 @@
   },
   {
     "speaker": "Peter Stadler",
-		"formal_name": "Prof. Dr. Peter F. Stadler\nProfessor für Bioinformatik at the University of Leipzig\nSenior Scientific Advisor) of the RNomics Group, Fraunhofer Institute for Cell Therapy and Immunology\nExternal Scientific Member of the Max Planck Society",
+		"formal_name": "Prof. Peter F. Stadler, PhD\nProfessor für Bioinformatik at the University of Leipzig\nSenior Scientific Advisor) of the RNomics Group, Fraunhofer Institute for Cell Therapy and Immunology\nExternal Scientific Member of the Max Planck Society",
 		"url": "http://www.bioinf.uni-leipzig.de/~studla/",
 		"institution": "Universität Leipzig",
 		"topic": false,
@@ -61,7 +61,7 @@
   },
   {
     "speaker": "Pierre Baldi",
-		"formal_name": "Prof. Dr. Pierre Baldi\nChancellor's Professor in the Department of Computer Science, School of Information and Computer Sciences\nDirector, Institute for Genomics and Bioinformatics\nAssociate Director, Center for Machine Learning and Data Mining\nJoint appointments in the Departments of Biological Chemistry, Developmental and Cell Biology, andBiomedical Engineering.\nMember of the California Institute for Telecommunications and Information Technology\nMember of the Institute for Mathematical Behavioral Sciences",
+		"formal_name": "Prof. Pierre Baldi, PhD\nChancellor's Professor in the Department of Computer Science, School of Information and Computer Sciences\nDirector, Institute for Genomics and Bioinformatics\nAssociate Director, Center for Machine Learning and Data Mining\nJoint appointments in the Departments of Biological Chemistry, Developmental and Cell Biology, and Biomedical Engineering.\nMember of the California Institute for Telecommunications and Information Technology\nMember of the Institute for Mathematical Behavioral Sciences",
 		"url": "http://www.igb.uci.edu/~pfbaldi/",
 		"institution": "University of California in Irvine",
 		"topic": "Deep Learning: Theory, Algorithms, and Applications",
@@ -72,7 +72,7 @@
   },
   {
     "speaker": "Elena Rivas",
-		"formal_name": "Dr. Elena Rivas",
+		"formal_name": "Elena Rivas, PhD",
 		"url": "http://www.hhmi.org/scientists/elena-rivas",
 		"institution": "Howard Hughes Medical Institute",
 		"topic": "RNA secondary structure prediction beyond thermodynamics. A four-ingredient unifying perspective.",
@@ -93,7 +93,7 @@
   },
   {
     "speaker": "Jim Collins",
-		"formal_name": "Prof. Dr. James J. Collins, William F. Warren Distinguished Professor",
+		"formal_name": "Prof. James J. Collins, PhD\nWilliam F. Warren Distinguished Professor\nWyss Institute for Biologically Inspired Engineering at Harvard University\nHoward Hughes Medical Institute",
 		"url": "http://www.bu.edu/bme/people/primary/collins/",
 		"institution": "Boston University",
 		"topic": false,
@@ -103,7 +103,7 @@
   },
   {
     "speaker": "Kourosh Zarringhalam",
-		"formal_name": "Prof. Dr. Kourosh Zarringhalam",
+		"formal_name": "Prof. Kourosh Zarringhalam, PhD",
 		"url": "http://www.math.umb.edu/~kouroshz/",
 		"institution": "University of Massachusetts Boston",
 		"topic": false,
@@ -113,7 +113,7 @@
   },
   {
     "speaker": "Knut Reinert",
-		"formal_name": "Prof. Dr. Knut Reinert",
+		"formal_name": "Prof. Knut Reinert, PhD",
 		"url": "http://www.mi.fu-berlin.de/en/inf/groups/abi/members/Professors/reinert.html",
 		"institution": "Freie Universität Berlin",
 		"topic": "A case study in bioinformatics software engineering: SeqAn",

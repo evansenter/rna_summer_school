@@ -107,7 +107,7 @@ div.jumbotron > p.lead {
   background: rgba(255, 255, 255, 0.5);
 }
 .calendar_column .calendar_entry:hover {
-  background: linear-gradient(-30deg, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.1) 100%);
+  background: linear-gradient(-30deg, rgb(243, 240, 247) 0, rgb(240, 238, 244) 100%);
   border: 1px solid #ccc;
 }
 .calendar_column .calendar_entry p.small {
@@ -122,13 +122,13 @@ div.jumbotron > p.lead {
   width: 100%;
   bottom: 8px;
   left: 0;
-  background-color: #fafafa;
+  background-color: rgba(230, 230, 230, 0.25);
   color: #666;
   padding: 2px 0;
   font-family: 'Roboto', sans-serif;
 }
 .calendar_entry:hover .timespan {
-  background: linear-gradient(30deg, rgba(106, 81, 144, 0.1) 0, rgba(131, 104, 173, 0.1) 100%);
+  background: linear-gradient(150deg, rgba(106, 81, 144, 0.05) 0, rgba(131, 104, 173, 0.05) 100%);
   color: black;
 }
 .calendar_entry .timespan div[class*=text] {
