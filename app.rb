@@ -6,8 +6,6 @@ class RnaSummerSchool < Sinatra::Base
     set :root, File.dirname(__FILE__)
     set :app_file, __FILE__
     set :port, ENV["PORT"]
-    set :public_folder, File.join(Dir.pwd, "components")
-    set :static, true
     set :protection, except: [:frame_options]
   end
 
@@ -36,6 +34,4 @@ class RnaSummerSchool < Sinatra::Base
       haml root_symbol
     end
   end
-
-  run! if app_file == $0
 end
