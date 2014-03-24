@@ -59,17 +59,16 @@
     "end_time": "2014-07-07 17:00:00 -0500",
 		"column": 2
   },
-  {
-    "speaker": "Pierre Baldi",
-		"formal_name": "Prof. Pierre Baldi, PhD\nChancellor's Professor in the Department of Computer Science, School of Information and Computer Sciences\nDirector, Institute for Genomics and Bioinformatics\nAssociate Director, Center for Machine Learning and Data Mining\nJoint appointments in the Departments of Biological Chemistry, Developmental and Cell Biology, and Biomedical Engineering.\nMember of the California Institute for Telecommunications and Information Technology\nMember of the Institute for Mathematical Behavioral Sciences",
-		"url": "http://www.igb.uci.edu/~pfbaldi/",
-		"institution": "University of California in Irvine",
-		"topic": "Deep Learning: Theory, Algorithms, and Applications",
-		"abstract": "pierre_baldi",
-    "start_time": "2014-07-08 09:30:00 -0500",
-    "end_time": "2014-07-08 13:00:00 -0500",
+	{
+		"speaker": "Kourosh Zarringhalam",
+		"formal_name": "Prof. Kourosh Zarringhalam, PhD",
+		"url": "http://www.math.umb.edu/~kouroshz/",
+		"institution": "University of Massachusetts Boston",
+		"topic": false,
+		"start_time": "2014-07-08 09:30:00 -0500",
+		"end_time": "2014-07-08 13:00:00 -0500",
 		"column": 3
-  },
+	},
   {
     "speaker": "Elena Rivas",
 		"formal_name": "Elena Rivas, PhD",
@@ -101,16 +100,17 @@
     "end_time": "2014-07-09 17:00:00 -0500",
 		"column": 4
   },
-  {
-    "speaker": "Kourosh Zarringhalam",
-		"formal_name": "Prof. Kourosh Zarringhalam, PhD",
-		"url": "http://www.math.umb.edu/~kouroshz/",
-		"institution": "University of Massachusetts Boston",
-		"topic": false,
-    "start_time": "2014-07-10 09:30:00 -0500",
-    "end_time": "2014-07-10 13:00:00 -0500",
+	{
+		"speaker": "Pierre Baldi",
+		"formal_name": "Prof. Pierre Baldi, PhD\nChancellor's Professor in the Department of Computer Science, School of Information and Computer Sciences\nDirector, Institute for Genomics and Bioinformatics\nAssociate Director, Center for Machine Learning and Data Mining\nJoint appointments in the Departments of Biological Chemistry, Developmental and Cell Biology, and Biomedical Engineering.\nMember of the California Institute for Telecommunications and Information Technology\nMember of the Institute for Mathematical Behavioral Sciences",
+		"url": "http://www.igb.uci.edu/~pfbaldi/",
+		"institution": "University of California in Irvine",
+		"topic": "Deep Learning: Theory, Algorithms, and Applications",
+		"abstract": "pierre_baldi",
+		"start_time": "2014-07-10 09:30:00 -0500",
+		"end_time": "2014-07-10 13:00:00 -0500",
 		"column": 5
-  },
+	},
   {
     "speaker": "Knut Reinert",
 		"formal_name": "Prof. Knut Reinert, PhD",
