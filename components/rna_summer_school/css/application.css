@@ -85,6 +85,12 @@ div.jumbotron > p.lead {
   margin: 30px auto;
   text-align: justify;
 }
+div.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+div.jumbotron a.poster_link {
+  font-weight: normal;
+}
 .bc_map {
   margin-top: 20px;
 }
