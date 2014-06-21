@@ -1,19 +1,6 @@
 body {
   padding-bottom: 30px;
 }
-.background_image {
-  position: relative;
-}
-.background_image img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 600px;
-  margin-top: 70px;
-  margin-left: -200px;
-  z-index: -1;
-}
 #rnabow {
   position: absolute;
   opacity: .1;
@@ -50,6 +37,9 @@ ul#parallax_mouse li img {
 }
 h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif !important;
+}
+.filler_text {
+  color: #666;
 }
 #main_jumbotron {
   position: relative;
@@ -111,6 +101,7 @@ div.jumbotron a.poster_link {
   border: 1px solid #eee;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.5);
+  min-height: 200px;
 }
 .calendar_column .calendar_entry:hover {
   background: linear-gradient(-30deg, rgb(243, 240, 247) 0, rgb(240, 238, 244) 100%);

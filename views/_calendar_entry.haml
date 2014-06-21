@@ -2,7 +2,7 @@
 
 .calendar_entry{ "data-modal-id" => modal_id }
   %p= speaker
-  %p.small= topic || "To be announced"
+  %p.small= topic || "<span class='filler_text'>To be announced</span>"
   .timespan.clearfix.small
     .pull-left.text-success= start_time.strftime("%H:%M")
     to
@@ -19,7 +19,7 @@
           - if url
             %a{ href: url, target: "_blank" }= primary_name
           - else
-            = primary_name || "To be announced"
+            = primary_name || "<span class='filler_text'>To be announced</span>"
 
         - if institution
           %h4.modal-title= institution
@@ -28,7 +28,7 @@
           - titles.each do |title|
             %h6.modal-title= title
       .modal-body
-        %h4= topic || "To be announced"
+        %h4= topic || "<span class='filler_text'>To be announced</span>"
         - if locals.has_key?("abstract")
           - abstract.split(?\n).each do |paragraph|
             %p.text-justify= paragraph
