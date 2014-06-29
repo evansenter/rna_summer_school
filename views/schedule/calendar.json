@@ -54,7 +54,8 @@
 		"formal_name": "Prof. Peter F. Stadler, PhD\nProfessor für Bioinformatik at the University of Leipzig\nSenior Scientific Advisor) of the RNomics Group, Fraunhofer Institute for Cell Therapy and Immunology\nExternal Scientific Member of the Max Planck Society",
 		"url": "http://www.bioinf.uni-leipzig.de/~studla/",
 		"institution": "Universität Leipzig",
-		"topic": false,
+		"topic": "From Inverse Folding to Complex Design Goals",
+    "abstract": "peter_stadler_abstract.txt",
     "start_time": "2014-07-07 15:00:00 -0500",
     "end_time": "2014-07-07 17:00:00 -0500",
 		"column": 2
