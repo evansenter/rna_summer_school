@@ -24,7 +24,8 @@
 		"formal_name": "Ivan Dotu, PhD, Visiting Scholar",
 		"url": "http://www.bc.edu/schools/cas/biology/facadmin/dotu.html",
 		"institution": "Universidad Politecnica de Cataluña",
-		"topic": "Bioinformatics Algorithms",
+		"topic": "Introduction to Algorithms",
+    "abstract": "ivan_dotu",
     "start_time": "2014-07-06 09:30:00 -0500",
     "end_time": "2014-07-06 13:00:00 -0500",
 		"column": 1
@@ -34,7 +35,7 @@
 		"formal_name": "Prof. Sergio Alvarez, PhD",
 		"url": "http://www.cs.bc.edu/~alvarez/",
 		"institution": "Boston College",
-		"topic": "Bioinformatics Algorithms",
+		"topic": "Introduction to Machine Learning",
     "start_time": "2014-07-06 15:00:00 -0500",
     "end_time": "2014-07-06 17:00:00 -0500",
 		"column": 1
@@ -83,11 +84,12 @@
 		"column": 3
   },
   {
-    "speaker": "Jacquin Niles",
-		"formal_name": "Prof. Jacquin C. Niles, M.D., PhD",
-		"url": "http://web.mit.edu/be/people/niles.shtml",
-		"institution": "Massachusetts Institute of Technology",
-		"topic": false,
+		"speaker": "Pierre Baldi",
+		"formal_name": "Prof. Pierre Baldi, PhD\nChancellor's Professor in the Department of Computer Science, School of Information and Computer Sciences\nDirector, Institute for Genomics and Bioinformatics\nAssociate Director, Center for Machine Learning and Data Mining\nJoint appointments in the Departments of Biological Chemistry, Developmental and Cell Biology, and Biomedical Engineering.\nMember of the California Institute for Telecommunications and Information Technology\nMember of the Institute for Mathematical Behavioral Sciences",
+		"url": "http://www.igb.uci.edu/~pfbaldi/",
+		"institution": "University of California in Irvine",
+		"topic": "Deep Learning: Theory, Algorithms, and Applications",
+		"abstract": "pierre_baldi",
     "start_time": "2014-07-09 09:30:00 -0500",
     "end_time": "2014-07-09 13:00:00 -0500",
 		"column": 4
@@ -103,12 +105,11 @@
 		"column": 4
   },
 	{
-		"speaker": "Pierre Baldi",
-		"formal_name": "Prof. Pierre Baldi, PhD\nChancellor's Professor in the Department of Computer Science, School of Information and Computer Sciences\nDirector, Institute for Genomics and Bioinformatics\nAssociate Director, Center for Machine Learning and Data Mining\nJoint appointments in the Departments of Biological Chemistry, Developmental and Cell Biology, and Biomedical Engineering.\nMember of the California Institute for Telecommunications and Information Technology\nMember of the Institute for Mathematical Behavioral Sciences",
-		"url": "http://www.igb.uci.edu/~pfbaldi/",
-		"institution": "University of California in Irvine",
-		"topic": "Deep Learning: Theory, Algorithms, and Applications",
-		"abstract": "pierre_baldi",
+    "speaker": "Jacquin Niles",
+		"formal_name": "Prof. Jacquin C. Niles, M.D., PhD",
+		"url": "http://web.mit.edu/be/people/niles.shtml",
+		"institution": "Massachusetts Institute of Technology",
+		"topic": false,
 		"start_time": "2014-07-10 09:30:00 -0500",
 		"end_time": "2014-07-10 13:00:00 -0500",
 		"column": 5

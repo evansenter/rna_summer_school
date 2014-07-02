@@ -1,0 +1,11 @@
+In this morning lecture we will provide an introduction to Algorithms for students without a computer science background. This lecture will introduce the concept of algorithm and review some of the most relevant types of algorithms. Also, a brief introduction to the graph formalism and some relevant problems associated will be presented. After the break, we will introduce a discussion of the difficulty of certain types of problems along with a review of optimization techniques such as approximation algorithms, local search and constraint programming. A tentative outline is:
+1. Introduction
+2. Algorithm Analysis
+3. Graphs
+4. Greedy Algorithms
+5. Divide and Conquer Algorithms
+6. Dynamic Programming
+7. Intractability
+8. Approximation Algorithms
+9. Local Search
+10. Constraint Programming
