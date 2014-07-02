@@ -1,0 +1,28 @@
+Goals:
+    - Why do we care about RNA?
+    - What does RNA do in biological systems (focused on bacterial systems)? How does the biochemistry of RNA contribute to these roles?
+
+Part I
+1) Classical roles of RNA
+    - rRNA
+    - mRNA
+    - tRNA
+2) RNA as a regulator (focused on bacterial RNAs)
+    - regulating transcription (attenuation)
+    - regulating translation
+    - riboswitches
+    - ribosomal protein leader sequences
+    - sRNAs
+
+Part II
+1) RNA biochemistry
+    - RNA chemistry
+    - Forces involved in folding RNA
+    - RNA secondary structure
+    - RNA tertiary structure
+2) RNA as a catalyst
+    - RNA catalyzed chemistry
+    -biological relevance of ribozymes
+    - RNA world
+
+Applications: Engineering RNA
