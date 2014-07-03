@@ -1,15 +1,16 @@
-This algorithms talk will cover background material on dynamic programming secon
-dary structure prediction and RNA kinetics, as well as results from our lab.
-
+This algorithms talk will cover background material on dynamic programming secondary structure prediction and RNA kinetics, as well as results from our lab.
+<p><hr><p>
 Background material
+-------------------
 1) Nussinov-Jacobson dynamic programming algorithm for secondary structure; partition function computation, sampling RNA secondary structures
 2) Turner energy model: Zuker algorithm, McCaskill algorithm
 3) Context free grammars, relation between combinatorics and partition function
 4) Pseudoknotted structures
 5) Kinetics fundamentals: mean first passage time and master equation
+<p><hr><p>
 
 Results from our lab
-1) Secondary structure prediction that incorporates chemical/enzymatic probing d
-ata
-2) Applications of RNA inverse folding using constraint programming3) Design/application of thermodynamics-based RNA algorithms: expected 5'-3' distance, page number of pseudoknotted structures, RNA segmentation, Wang-Landau sa
-mpling (due to time, only some of these topics may be covered).
+--------------------
+1) Secondary structure prediction that incorporates chemical/enzymatic probing data
+2) Applications of RNA inverse folding using constraint programming
+3) Design/application of thermodynamics-based RNA algorithms: RNAbor/FFTbor, expected 5'-3' distance, page number of pseudoknotted structures, RNA segmentation, Wang-Landau sampling (due to time, only some of these topics may be covered).
