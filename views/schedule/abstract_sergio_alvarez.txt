@@ -1,0 +1,14 @@
+Introduction to Machine Learning
+
+Abstract. Machine learning can be used to construct computational predictive models that adapt to data. It has proven to be an important source of approaches for computational biology problems such as sequence alignment, gene expression, and protein structure prediction. This talk will provide an introduction to general concepts and techniques in machine learning. The focus will be on supervised machine learning, classification in particular, but unsupervised clustering will also be discussed.
+
+Selected topics (subject to change)
+
+Machine learning tasks
+Data representation, hypothesis spaces
+Error metrics and evaluation, generalization
+Attribute pre-processing
+Classification and regression techniques: decision trees, neural networks, Bayesian classifiers, instance-based learning, support vector machines (SVM)
+Meta-learning: bagging, boosting
+Clustering: k-means, E-M
+
