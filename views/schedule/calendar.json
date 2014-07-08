@@ -113,7 +113,8 @@
 		"formal_name": "Prof. Jacquin C. Niles, M.D., PhD",
 		"url": "http://web.mit.edu/be/people/niles.shtml",
 		"institution": "Massachusetts Institute of Technology",
-		"topic": false,
+		"topic": "De novo selection of RNA function for cell-based applications",
+    "abstract": "jacquin_niles",
 		"start_time": "2014-07-10 09:30:00 -0500",
 		"end_time": "2014-07-10 13:00:00 -0500",
 		"column": 5
